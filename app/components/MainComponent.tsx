@@ -5,7 +5,7 @@ type Props = {
   location: string;
 };
 // API KEY
-const APIKey = process.env.API_KEY!;
+const APIKey = process.env.NEXT_PUBLIC_API_KEY;
 console.log(APIKey);
 const MainComponent = (props: Props) => {
   const [weatherData, setWeatherData] = useState<any>(null);
