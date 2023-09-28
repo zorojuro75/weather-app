@@ -1,0 +1,4 @@
+This is a single page NextJS app. In this page you can enter a city name and find it's weather details. On load this web application will show weather details on my current location 'Dhaka'.
+On the top of the page there is a search box where you can enter a city name and click on "Get Weather" button to get weather details of that city.
+If you enter a city name which does not exist, it will show a massege of invalid city name and ask you to enter a valid name instead.
+I am using open weather API. The API key is 'a8f5b7a2ba6be49558787806a1f2302d'. As I am using a free plan it might be out of limit. if it is out of limit then the weather app will show a massege regarding this.
